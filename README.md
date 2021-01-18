@@ -29,4 +29,3 @@ How to get and post to api server:
 GET: curl http://newapimeastus.azure-api.net/myapiserver/accounts
 
 POST: curl -X POST -H "Content-Type: application/json" -d '{"name" : "kiwi", "balance" : 0.02 }' http://newapimeastus.azure-api.net/myapiserver/addaccounts
-
