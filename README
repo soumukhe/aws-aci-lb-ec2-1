@@ -17,7 +17,7 @@ exit # and ssh back in for this to work
 docker --version
 sudo apt install docker-compose -y
 git clone https://github.com/soumukhe/aws-aci-lb-ec2-1.git
-cd docker-compose-flask/
+cd aws-aci-lb-ec2-1
 docker-compose up --build -d
 browse https to the public ec1IP:9002
 
