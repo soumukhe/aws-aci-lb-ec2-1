@@ -11,7 +11,7 @@ services:
     build: 
       context: .
       dockerfile: ./Dockerfile
-    command: [] 
+    command: ["/usr/sbin/apachectl", "-D", "FOREGROUND"] 
     ports:
       - "9001:80/tcp"
       - "9002:443/tcp"
